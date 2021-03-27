@@ -7,26 +7,29 @@ Lecture Slides
 
 Step 1.
 
-SELECT * FROM customers; 
+	SELECT * FROM customers; 
 
 Step 2.
 
-SELECT * FROM orders; 
+	SELECT * FROM orders; 
 
 Step 3.
 
 SELECT * 
-FROM products
-ORDER BY Price DESC;
+	FROM products
+	ORDER BY Price DESC;
+
 Step 4.
 
-SELECT 
- customerName,
- COUNT(*) AS 'number of orders'
-FROM customers
+	SELECT 
+ 	customerName,
+ 	COUNT(*) AS 'number of orders'
+	FROM customers
+
 INNER JOIN orders
  ON orders.customerID = customers.customerID
-GROUP BY customers.customerID;
+ GROUP BY customers.customerID;
+
 Note: Step 4 may give you errors if you're using firefox or any other browser other than Chrome, Safari, or Opera. This is because the SQL Try-It Editor is using WebSQL. See here for further discussion of errors that could occur when using firefox. You can use the query below in place of step 4, if you're using firefox:
 
 SELECT

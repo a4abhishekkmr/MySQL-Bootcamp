@@ -1,0 +1,57 @@
+SQL Data Types
+SQL data types can be broadly divided into following categories.
+
+	Numeric data types such as int, tinyint, bigint, float, real etc.
+	Date and Time data types such as Date, Time, Datetime etc.
+	Character and String data types such as char, varchar, text etc.
+	Unicode character string data types, for example nchar, nvarchar, ntext etc.
+	Binary data types such as binary, varbinary etc.
+	Miscellaneous data types – clob, blob, xml, cursor, table etc.
+
+SQL Numeric Data Types
+Datatype	From	To
+bit	0	1
+tinyint	0	255
+smallint	-32,768	32,767
+int	-2,147,483,648	2,147,483,647
+bigint	-9,223,372,036, 854,775,808	9,223,372,036, 854,775,807
+decimal	-10^38 +1	10^38 -1
+numeric	-10^38 +1	10^38 -1
+float	-1.79E + 308	1.79E + 308
+real	-3.40E + 38	3.40E + 38
+
+SQL Date and Time Data Types
+Datatype	  Description
+DATE	Stores date in the format YYYY-MM-DD
+TIME	Stores time in the format HH:MI:SS
+DATETIME 	Stores date and time information in the format YYYY-MM-DD HH:MI:SS
+TIMESTAMP	Stores number of seconds passed since the Unix epoch (‘1970-01-01 00:00:00’ UTC)
+YEAR	Stores year in 2 digit or 4 digit format. Range 1901 to 2155 in 4-digit format. Range 70 to 69, representing 1970 to 2069.
+
+SQL Character and String Data Types
+Datatype	   Description
+CHAR	Fixed length with maximum length of 8,000 characters
+VARCHAR	Variable length storage with maximum length of 8,000 characters
+VARCHAR(max)	Variable length storage with provided max characters, not supported in MySQL
+TEXT	Variable length storage with maximum size of 2GB data
+
+SQL Unicode Character and String Data Types
+Datatype  	Description
+NCHAR	 Fixed length with maximum length of 4,000 characters
+NVARCHAR	Variable length storage with maximum length of 4,000 characters
+NVARCHAR(max)	Variable length storage with provided max characters
+NTEXT	Variable length storage with maximum size of 1GB data
+
+SQL Binary Data Types
+Datatype	Description
+BINARY	Fixed length with maximum length of 8,000 bytes
+VARBINARY	Variable length storage with maximum length of 8,000 bytes
+VARBINARY(max)	Variable length storage with provided max bytes
+IMAGE	Variable length storage with maximum size of 2GB binary data
+
+SQL Miscellaneous Data Types
+Datatype	Description
+CLOB	Character large objets that can hold up to 2GB
+BLOB	For binary large objects
+XML	for storing xml data
+JSON	for storing JSON data
