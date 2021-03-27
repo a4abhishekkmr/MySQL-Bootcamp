@@ -32,3 +32,6 @@ Became an In-demand SQL Master by creating complex databases and building report
 	Write Javascript code to generate fake data sets
 
 	And more!
+
+### Preview
+	<img src="Section 1 Introduction/1.jpg">
