@@ -28,9 +28,16 @@ Step 4.
 
 INNER JOIN orders
  ON orders.customerID = customers.customerID
+<<<<<<< HEAD
  GROUP BY customers.customerID;
 
 Note: Step 4 may give you errors if you're using firefox or any other browser other than Chrome, Safari, or Opera. This is because the SQL Try-It Editor is using WebSQL. See here for further discussion of errors that could occur when using firefox. You can use the query below in place of step 4, if you're using firefox:
+=======
+GROUP BY customers.customerID;
+Note: Step 4 may give you errors if you're using firefox or any other browser other than Chrome, Safari, or Opera.
+This is because the SQL Try-It Editor is using WebSQL. See here for further discussion of errors that could occur 
+when using firefox. You can use the query below in place of step 4, if you're using firefox:
+>>>>>>> cb207d5cb53b70e85c6bc568d6f5e0dceef02536
 
 SELECT
     customerName,

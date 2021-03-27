@@ -1,13 +1,13 @@
 # MySQL-Bootcamp: Go from SQL Beginner to Expert
 Became an In-demand SQL Master by creating complex databases and building reports through real-world projects
 
-###Requirements
+### Requirements
 	No Database, SQL, or MySQL experience needed! Complete beginners to MySQL are welcome.
 	All you need is a working computer for this course; PC, Mac, and Linux users are all welcome.
 	No previous programming language experience required, but it won't hurt :)
 
 
-###In this course, you will:
+### In this course, you will:
 
 	Learn the ins and outs of SQL syntax
 
