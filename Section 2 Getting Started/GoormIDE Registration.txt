@@ -1,0 +1,16 @@
+GoormIDE Registration IMPORTANT - PLEASE READ!!!
+Hello Everyone! 
+Cloud9 was acquired by Amazon Web Services (AWS) and they closed down the legacy version of Cloud9 (c9.io), that I use in the lectures.
+
+While you can sign up for the new AWS version of Cloud9, that is not something that we recommend as it requires a credit card to use the free trial and is not exactly beginner friendly.
+
+Instead, we now recommend using a different cloud based IDE called, GoormIDE.
+Goorm is a great IDE and is fairly similar to the legacy version of Cloud9 that I use in the video lectures.
+
+Everything that I mentioned in the previous video, regarding the use of Cloud9, can also be applied to Goorm.
+
+Our TA (Ian) has created a readme file that explains the signup and setup processes for Goorm.
+
+Please go >>> https://gist.github.com/nax3t/2773378c4d1bada8d66d12f4d5210248 <<< to view signup and setup instructions.
+Once you finish with the instructions, then you can continue with the next section in the course.
+
