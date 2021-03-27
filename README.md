@@ -34,4 +34,4 @@ Became an In-demand SQL Master by creating complex databases and building report
 	And more!
 
 ### Preview
-	<img src="Section 1 Introduction/1.jpg">
+<img src="Section 1 Introduction/1.jpg">
