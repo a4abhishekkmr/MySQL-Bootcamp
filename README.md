@@ -7,7 +7,7 @@ Became an In-demand SQL Master by creating complex databases and building report
 	No previous programming language experience required, but it won't hurt :)
 
 
-### In this course, you will:
+### In this course, if i revise i will:
 
 	Learn the ins and outs of SQL syntax
 
